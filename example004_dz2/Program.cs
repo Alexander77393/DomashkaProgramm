@@ -11,12 +11,12 @@ Console.WriteLine("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 int numA = num / 100;
 
-numA = Math.Abs(NumA);
+numA = Math.Abs(numA);
 if (numA < 1 )
 {
     Console.WriteLine($"{num} -> третьей цифры нет");
 }
 else{
-    numA = num %= 10;
+    numA %= 10;
     Console.WriteLine($"{num} третье число {numA}");
 }
