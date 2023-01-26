@@ -11,19 +11,19 @@
 
 
 Console.Write("Введите координат x1: ");
-int x1=int.Parse(Console.ReadLine()!);
+int x1 = int.Parse(Console.ReadLine()!);
 Console.Write("Введите координат y1: ");
-int y1=int.Parse(Console.ReadLine()!);
+int y1 = int.Parse(Console.ReadLine()!);
 Console.Write("Введите координат d1: ");
-int d1=int.Parse(Console.ReadLine()!);
+int d1 = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите координат x2: ");
-int x2=int.Parse(Console.ReadLine()!);
+int x2 = int.Parse(Console.ReadLine()!);
 Console.Write("Введите координат y2: ");
-int y2=int.Parse(Console.ReadLine()!);
+int y2 = int.Parse(Console.ReadLine()!);
 Console.Write("Введите координат d2: ");
-int d2=int.Parse(Console.ReadLine()!);
+int d2 = int.Parse(Console.ReadLine()!);
 
-double result=Math.Sqrt((Math.Pow((x2-x1),2)+Math.Pow((y2-y1),2)+Math.Pow((d2-d1),2)));
+double result = Math.Sqrt((Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((d2 - d1), 2)));
 
 Console.WriteLine($"Расстояние между точками {result:F2}");
