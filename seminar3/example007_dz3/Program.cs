@@ -17,6 +17,6 @@ int count = 1;
 while (count <= number)
 {
     Console.Write($"{Math.Pow(count, 3)}");
-    if (count != number) Console.Write(", ");
+    if (count != number) Console.Write(", ");  //Пример отсутсвия запятой в конце таблицы //Из семинара
     count++;
 }
