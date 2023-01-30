@@ -29,13 +29,13 @@ int IntAinB(int intNum)
 
 void Deduction()
 {
-    System.Console.Write("Введите число A: ");
+    Console.Write("Введите число A: ");
     double numberA = Convert.ToSingle(Console.ReadLine());
-    System.Console.Write("Введите число B: ");
+    Console.Write("Введите число B: ");
     int numberB = Convert.ToInt32(Console.ReadLine());
     numberB = IntAinB(numberB);
 
-    System.Console.WriteLine($"{numberA} в {numberB} степени = {AinB(numberA, numberB)}");
+    Console.WriteLine($"{numberA} в {numberB} степени = {AinB(numberA, numberB)}");
 }
 
 Deduction();
